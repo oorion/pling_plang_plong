@@ -16,7 +16,7 @@ func main() {
 }
 
 func raindrops(num int) string {
-  output := ""
+  var output string
   if pling(num) { output += "Pling" }
   if plang(num) { output += "Plang" }
   if plong(num) { output += "Plong" }
